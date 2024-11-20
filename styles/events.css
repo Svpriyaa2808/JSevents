@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+ 
+    background-color: burlywood;
+    border-bottom: 2px solid chocolate;
+}
+
+.title {
+
+    font-size: 4rem;
+    color: chocolate;
+    text-align: center;   
+}
+
+.animals-tab {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+    padding: 8px 24px;
+}
+
+.tab {
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: blanchedalmond;
+    color: chocolate;
+}
+
+.active {
+    background-color: beige;
+    color: brown;
+}
+
+.content {
+    margin: 8px;
+    background-color: bisque;
+    color: chocolate;
+    display: none;
+    padding: 8px;
+}
+
+.featured {
+    display: block;
+}
+
+.search-field {
+    color: chocolate;
+    text-align: center;
+    padding: 16px;
+}
+
+.search-field input {
+    border-color: blanchedalmond;
+    border-radius: 10px;
+    padding: 8px;
+}
